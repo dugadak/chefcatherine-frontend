@@ -123,3 +123,14 @@ export interface ApiResponse<T> {
   error?: string;
   message?: string;
 }
+
+// 사용자 프로필 타입
+export interface UserProfile {
+  id: string;
+  email: string;
+  name: string;
+  age?: number;
+  gender?: 'male' | 'female' | 'other';
+  created_at: string;
+  updated_at: string;
+}

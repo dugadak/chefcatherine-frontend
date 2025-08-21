@@ -42,6 +42,16 @@ apiClient.interceptors.response.use(
 
 // API 메서드들
 export const api = {
+  // Auth 관련
+  auth: {
+    login: (data: { email: string; password: string }) => apiClient.post('/auth/login', data),
+    register: (data: any) => apiClient.post('/auth/register', data),
+    logout: () => apiClient.post('/auth/logout'),
+    refresh: () => apiClient.post('/auth/refresh'),
+    profile: () => apiClient.get('/auth/profile'),
+    updateProfile: (data: any) => apiClient.put('/auth/profile', data),
+  },
+
   // Recipe 관련
   recipes: {
     getList: (params?: any) => apiClient.get('/recipes', { params }),
@@ -82,5 +92,20 @@ export const api = {
     live: () => apiClient.get('/health/live'),
   },
 };
+
+// Export individual API sections for store usage
+export const authApi = api.auth;
+export const recipeApi = {
+  getAll: api.recipes.getList,
+  getById: api.recipes.getDetail,
+  search: (query: string) => api.recipes.search({ query }),
+  recommend: api.recipes.recommend,
+};
+export const surveyApi = {
+  submit: api.survey.submit,
+  getResults: api.survey.getResults,
+  getHistory: () => api.survey.getRecent(),
+};
+export const feedbackApi = api.feedback;
 
 export default api;
