@@ -438,31 +438,6 @@ chore: 빌드 작업 등
 
 <br>
 
-## 📞 지원 & 문의
-
-<div align="center">
-
-### 도움이 필요하신가요?
-
-<br>
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:support@chefcatherine.com)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/chefcatherine)
-[![GitHub Issues](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/username/chefcatherine-frontend/issues)
-
-<br>
-
-### 팀 멤버
-
-| <img src="https://github.com/username1.png" width="100" /> | <img src="https://github.com/username2.png" width="100" /> | <img src="https://github.com/username3.png" width="100" /> |
-|:---:|:---:|:---:|
-| **개발 리드** | **UI/UX 디자이너** | **프론트엔드 개발자** |
-| [@username1](https://github.com/username1) | [@username2](https://github.com/username2) | [@username3](https://github.com/username3) |
-
-</div>
-
-<br>
-
 ## 🙏 감사의 말
 
 이 프로젝트는 많은 오픈소스 프로젝트들의 도움을 받았습니다:
