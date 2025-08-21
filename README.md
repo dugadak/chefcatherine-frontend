@@ -43,22 +43,19 @@
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/username/assets/main/feature-1.png" width="100%" />
-      <br><br>
-      <b>🤖 AI 레시피 추천</b><br>
-      <sub>개인 맞춤형 건강 레시피</sub>
+      <br>
+      <h3>🤖 AI 레시피 추천</h3>
+      <p>개인 맞춤형 건강 레시피</p>
     </td>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/username/assets/main/feature-2.png" width="100%" />
-      <br><br>
-      <b>📊 건강 분석</b><br>
-      <sub>웰니스 점수 & 영양 분석</sub>
+      <br>
+      <h3>📊 건강 분석</h3>
+      <p>웰니스 점수 & 영양 분석</p>
     </td>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/username/assets/main/feature-3.png" width="100%" />
-      <br><br>
-      <b>🎯 식단 관리</b><br>
-      <sub>주간 식단 계획 & 장보기 리스트</sub>
+      <br>
+      <h3>🎯 식단 관리</h3>
+      <p>주간 식단 계획 & 장보기 리스트</p>
     </td>
   </tr>
 </table>
@@ -373,70 +370,6 @@ docker run -p 3000:3000 chefcatherine-frontend
 
 <br>
 
-## 📈 성능
-
-### Lighthouse 점수
-
-<table>
-  <tr>
-    <td align="center">
-      <b>🎯 Performance</b><br>
-      <img src="https://img.shields.io/badge/100-4CAF50?style=flat-square" />
-    </td>
-    <td align="center">
-      <b>♿ Accessibility</b><br>
-      <img src="https://img.shields.io/badge/100-4CAF50?style=flat-square" />
-    </td>
-    <td align="center">
-      <b>📋 Best Practices</b><br>
-      <img src="https://img.shields.io/badge/100-4CAF50?style=flat-square" />
-    </td>
-    <td align="center">
-      <b>🔍 SEO</b><br>
-      <img src="https://img.shields.io/badge/100-4CAF50?style=flat-square" />
-    </td>
-  </tr>
-</table>
-
-### 핵심 Web Vitals
-
-- **LCP** (Largest Contentful Paint): < 2.5s
-- **FID** (First Input Delay): < 100ms
-- **CLS** (Cumulative Layout Shift): < 0.1
-
-<br>
-
-## 🤝 기여하기
-
-### 기여 가이드라인
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'feat: Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### 커밋 컨벤션
-
-```
-feat: 새로운 기능 추가
-fix: 버그 수정
-docs: 문서 수정
-style: 코드 포맷팅
-refactor: 코드 리팩토링
-test: 테스트 추가
-chore: 빌드 작업 등
-```
-
-### 코드 리뷰 체크리스트
-
-- [ ] 코드가 프로젝트 스타일 가이드를 따르는가?
-- [ ] 적절한 테스트가 추가되었는가?
-- [ ] 문서가 업데이트되었는가?
-- [ ] 모든 테스트가 통과하는가?
-- [ ] 성능에 영향을 주지 않는가?
-
-<br>
 
 ## 🙏 감사의 말
 
